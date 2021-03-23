@@ -1,22 +1,20 @@
-h1{
-
-    color:blueviolet;
-    
+h1 {
+    color: blueviolet;
 }
-p{
-    color:crimson;
+
+p {
+    color: crimson;
     font-weight: bolder;
 }
 
-h2{
-    color:chocolate;
+h2 {
+    color: chocolate;
 }
 
-.box{
-    background-color:burlywood;
+.box {
+    background-color: burlywood;
     border-radius: 10px;
     box-shadow: 5px 40px 40px grey;
     padding: 10px;
-    margin:15px;
-    
+    margin: 15px;
 }
