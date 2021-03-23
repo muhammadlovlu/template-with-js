@@ -4,9 +4,9 @@ fetch("https://jsonplaceholder.typicode.com/users")
 .then(data => showUsersDetails(data))
 
 function showUsersDetails(data){
-let lists = "";
+let userHTML = "";
 data.forEach(user => {
-    lists = lists + `
+    userHTML = userHTML + `
     <div>
     <h1>User Name : ${user.username}</h1>
     <h2>Name : ${user.name}</h2>
@@ -18,7 +18,7 @@ data.forEach(user => {
     `
 });
 const div =document.getElementById("user-container");
-div.innerHTML = lists;
+div.innerHTML = userHTML;
 }
 
 
