@@ -1,5 +1,7 @@
 h1{
+
     color:blueviolet;
+    
 }
 p{
     color:crimson;
@@ -8,4 +10,13 @@ p{
 
 h2{
     color:chocolate;
+}
+
+.box{
+    background-color:burlywood;
+    border-radius: 10px;
+    box-shadow: 5px 40px 40px grey;
+    padding: 10px;
+    margin:15px;
+    
 }

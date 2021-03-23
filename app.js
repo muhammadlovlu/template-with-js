@@ -7,7 +7,7 @@ function showUsersDetails(data){
 let userHTML = "";
 data.forEach(user => {
     userHTML = userHTML + `
-    <div>
+    <div class="box">
     <h1>User Name : ${user.username}</h1>
     <h2>Name : ${user.name}</h2>
     <h3>User's Email : ${user.email}</h3>
